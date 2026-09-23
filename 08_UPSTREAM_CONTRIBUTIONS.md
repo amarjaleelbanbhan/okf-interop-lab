@@ -1,0 +1,3 @@
+# Upstream contribution status
+
+No PR or issue comment was submitted. #14 has an overlapping open PR #23; the tested omission can be shared there if useful, subject to reviewing its latest diff and maintainer feedback. Source: https://github.com/GoogleCloudPlatform/open-knowledge-format/issues/14, https://github.com/GoogleCloudPlatform/open-knowledge-format/pull/23. A specification change requires issue discussion first; the repository requires a Google CLA and unit tests. Source: https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/CONTRIBUTING.md. There is no claim of acceptance or merge.

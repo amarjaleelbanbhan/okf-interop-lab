@@ -1,0 +1,3 @@
+# Release and launch
+
+Current state: local working prototype only. No GitHub repository, release, CI run or public announcement exists. Release gate: correct scanner limitations, exercise at least two additional consumer versions, add CI, and publish exact fixture results. Draft announcement: “I built a small OKF link interoperability fixture after reproducing a missing reference-viewer edge on a synthetic bundle. It compares expected concept targets with a pinned implementation and exports raw JSON. It is early and does not certify OKF compatibility. Contributions that add reproducible consumer adapters are welcome.” Use this text for LinkedIn, release notes or a portfolio description only after the corresponding public URL exists.

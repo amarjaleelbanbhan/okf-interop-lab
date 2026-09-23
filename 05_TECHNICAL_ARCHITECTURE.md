@@ -1,0 +1,5 @@
+# Architecture
+
+`examples/bundle` → inline Markdown link scanner → path resolver → sorted concept IDs → comparison with optional pinned upstream `_extract_links` → JSON observations. `tests/` exercises positive, negative and escape cases. The resolver confines paths to the resolved bundle root and rejects external schemes, missing files, reserved names and symlink escapes. It reads local files only; it does not execute Markdown or follow HTTP links. Unknown YAML fields remain untouched because frontmatter is only skipped, not parsed. No authorization or secret-management guarantee is implied.
+
+Interfaces: `resolve(root: Path, source: Path, href: str) -> str | None`, `edges(root, source) -> list[str]`, `probe(root, upstream=None) -> dict`; CLI takes bundle path and optional local upstream checkout.

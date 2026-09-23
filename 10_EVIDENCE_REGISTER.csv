@@ -1,0 +1,32 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: 10_EVIDENCE_REGISTER.csv>
+index,finding,source_url,verification_date,evidence_type,status
+0,OKF v0.2 format and link rules,https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md,2026-09-23,official documentation/source/issue,VERIFIED
+1,Canonical repo supersedes frozen snapshot,https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/README.md,2026-09-23,official documentation/source/issue,VERIFIED
+2,Viewer absolute link omission,https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/src/reference_agent/viewer/generator.py,2026-09-23,official documentation/source/issue,VERIFIED
+3,Viewer gap tracked,https://github.com/GoogleCloudPlatform/open-knowledge-format/issues/14,2026-09-23,official documentation/source/issue,VERIFIED
+4,Overlapping PR open,https://github.com/GoogleCloudPlatform/open-knowledge-format/pull/23,2026-09-23,official documentation/source/issue,VERIFIED
+5,Upstream contribution policy,https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/CONTRIBUTING.md,2026-09-23,official documentation/source/issue,VERIFIED
+6,GraphRAG indexing/query architecture,https://github.com/microsoft/graphrag/blob/main/docs/index.md,2026-09-23,official documentation/source/issue,VERIFIED
+7,OKF announcement,https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing,2026-09-23,official documentation/source/issue,VERIFIED
+8,Schema suggestion,https://github.com/GoogleCloudPlatform/open-knowledge-format/issues/8,2026-09-23,official documentation/source/issue,VERIFIED
+9,Imported trust proposal,https://github.com/GoogleCloudPlatform/open-knowledge-format/issues/15,2026-09-23,official documentation/source/issue,VERIFIED
+10,Relationship proposal,https://github.com/GoogleCloudPlatform/open-knowledge-format/issues/16,2026-09-23,official documentation/source/issue,VERIFIED
+11,Version ambiguity issue,https://github.com/GoogleCloudPlatform/open-knowledge-format/issues/24,2026-09-23,listing or inaccessible page,REPORTED
+12,Bundle composition issue,https://github.com/GoogleCloudPlatform/open-knowledge-format/issues/26,2026-09-23,listing or inaccessible page,REPORTED
+13,Issue 29 state,https://github.com/GoogleCloudPlatform/open-knowledge-format/issues/29,2026-09-23,listing or inaccessible page,UNKNOWN
+14,Project discovery: GoogleCloudPlatform/open-knowledge-format,https://github.com/GoogleCloudPlatform/open-knowledge-format,2026-09-23,source inspected,VERIFIED
+15,Project discovery: GoogleCloudPlatform/knowledge-catalog,https://github.com/GoogleCloudPlatform/knowledge-catalog,2026-09-23,README inspected,VERIFIED
+16,Project discovery: microsoft/graphrag,https://github.com/microsoft/graphrag,2026-09-23,official docs inspected,VERIFIED
+17,Project discovery: skosovsky/okf,https://github.com/skosovsky/okf,2026-09-23,README only,REPORTED
+18,Project discovery: galkleinman/okf-toolkit,https://github.com/galkleinman/okf-toolkit,2026-09-23,README only,REPORTED
+19,Project discovery: mfdaves/okf-mcp,https://github.com/mfdaves/okf-mcp,2026-09-23,README only,REPORTED
+20,Project discovery: teomarcdhio/okf-mcp,https://github.com/teomarcdhio/okf-mcp,2026-09-23,README only,REPORTED
+21,Project discovery: okfcli/okf,https://github.com/okfcli/okf,2026-09-23,README only,REPORTED
+22,Project discovery: xSAVIKx/okf-skills,https://github.com/xSAVIKx/okf-skills,2026-09-23,README only,REPORTED
+23,Project discovery: serradura/okf,https://github.com/serradura/okf,2026-09-23,README only,REPORTED
+24,Project discovery: HKUDS/LightRAG,https://github.com/HKUDS/LightRAG,2026-09-23,README only,REPORTED
+25,Project discovery: OSU-NLP-Group/HippoRAG,https://github.com/OSU-NLP-Group/HippoRAG,2026-09-23,README only,REPORTED
+26,Project discovery: GraphRAG-Bench/GraphRAG-Benchmark,https://github.com/GraphRAG-Bench/GraphRAG-Benchmark,2026-09-23,README only,REPORTED
+27,Project discovery: microsoft/graphrag-benchmarking-datasets,https://github.com/microsoft/graphrag-benchmarking-datasets,2026-09-23,README only,REPORTED
+28,Project discovery: cdel1/graphrag-core,https://github.com/cdel1/graphrag-core,2026-09-23,README only,REPORTED

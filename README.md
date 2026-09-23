@@ -22,4 +22,4 @@ The local resolver handles CommonMark inline and reference links, file-relative 
 
 All reports and evidence files reflect a prototype, not a public benchmark or general compatibility claim.
 
-Licensed under Apache-2.0.
+Licensed under MIT.

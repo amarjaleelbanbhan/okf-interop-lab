@@ -1,0 +1,1 @@
+Run `python -m unittest discover -s tests -v`. Add a minimal synthetic fixture and exact consumer commit for every new interoperability claim. Do not turn optional OKF behavior into a mandatory validation error.

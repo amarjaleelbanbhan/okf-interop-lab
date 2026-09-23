@@ -1,0 +1,18 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: 02_ECOSYSTEM_COMPARISON.csv>
+index,repository,purpose,license,language,claimed_or_inspected_features,evidence_depth,tests,maintenance,relevant_issues,demonstrated_gap,url,verified_on
+0,GoogleCloudPlatform/open-knowledge-format,OKF format/reference viewer,Apache-2.0,Python,"viewer, bundle examples",source inspected,tests/test_viewer.py,active PRs seen,#14 and PR #23,absolute link omitted at pinned SHA,https://github.com/GoogleCloudPlatform/open-knowledge-format,2026-09-23
+1,GoogleCloudPlatform/knowledge-catalog,legacy OKF snapshot,UNKNOWN,UNKNOWN,frozen snapshot,README inspected,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,https://github.com/GoogleCloudPlatform/knowledge-catalog,2026-09-23
+2,microsoft/graphrag,graph-based retrieval,MIT,Python,"index, local/global search",official docs inspected,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,https://github.com/microsoft/graphrag,2026-09-23
+3,skosovsky/okf,OKF CLI/validation,UNKNOWN,Go,"validation, indexing, MCP (README claim)",README only,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,https://github.com/skosovsky/okf,2026-09-23
+4,galkleinman/okf-toolkit,OKF CLI/viewer,UNKNOWN,Rust,"validation, lint, MCP (README claim)",README only,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,https://github.com/galkleinman/okf-toolkit,2026-09-23
+5,mfdaves/okf-mcp,OKF MCP/index,UNKNOWN,UNKNOWN,MCP search and proposals (README claim),README only,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,https://github.com/mfdaves/okf-mcp,2026-09-23
+6,teomarcdhio/okf-mcp,OKF memory MCP,UNKNOWN,UNKNOWN,read/write v0.1 (README claim),README only,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,https://github.com/teomarcdhio/okf-mcp,2026-09-23
+7,okfcli/okf,OKF CLI,UNKNOWN,Go,"validate, search, graph (README claim)",README only,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,https://github.com/okfcli/okf,2026-09-23
+8,xSAVIKx/okf-skills,OKF skills and MCP,UNKNOWN,Go,skill command exposure (README claim),README only,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,https://github.com/xSAVIKx/okf-skills,2026-09-23
+9,serradura/okf,Ruby OKF gem,UNKNOWN,Ruby,CLI and library (README claim),README only,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,https://github.com/serradura/okf,2026-09-23
+10,HKUDS/LightRAG,graph retrieval,MIT,Python,graph-assisted retrieval (README claim),README only,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,https://github.com/HKUDS/LightRAG,2026-09-23
+11,OSU-NLP-Group/HippoRAG,graph retrieval,UNKNOWN,Python,graph and PageRank retrieval (README claim),README only,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,https://github.com/OSU-NLP-Group/HippoRAG,2026-09-23
+12,GraphRAG-Bench/GraphRAG-Benchmark,retrieval evaluation,MIT,UNKNOWN,multi-task graph RAG benchmark (README claim),README only,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,https://github.com/GraphRAG-Bench/GraphRAG-Benchmark,2026-09-23
+13,microsoft/graphrag-benchmarking-datasets,evaluation datasets,UNKNOWN,UNKNOWN,GraphRAG benchmark datasets (README claim),README only,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,https://github.com/microsoft/graphrag-benchmarking-datasets,2026-09-23
+14,cdel1/graphrag-core,provenance graph pipeline,UNKNOWN,Python,auditable graph (README claim),README only,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,https://github.com/cdel1/graphrag-core,2026-09-23

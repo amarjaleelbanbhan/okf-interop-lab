@@ -1,0 +1,1 @@
+Report security issues privately to the repository maintainer. This prototype reads local files, resolves symlinks for containment and does not execute knowledge bundle content. Do not run against untrusted very large trees: no size limits or filesystem race defenses are implemented.
