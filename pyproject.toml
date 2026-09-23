@@ -3,11 +3,14 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "okf-interop-lab-prototype"
-version = "0.1.0.dev0"
-description = "Narrow OKF concept-link interoperability fixture (experimental)"
+name = "okf-interop-lab"
+version = "0.2.0.dev0"
+description = "OKF concept-link checker with JSON and SARIF diagnostics (experimental)"
 requires-python = ">=3.11"
 dependencies = ["markdown-it-py>=3,<5"]
 
 [tool.setuptools]
-py-modules = ["interop"]
+py-modules = ["interop", "okf_linkcheck"]
+
+[project.scripts]
+okf-linkcheck = "okf_linkcheck:main"

@@ -1,9 +1,9 @@
-name: Prototype tests
+name: OKF linkcheck tests
 on:
   push:
   pull_request:
 jobs:
-  unit-tests:
+  test:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -15,3 +15,11 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - run: python -m pip install -e .
       - run: python -m unittest discover -s tests -v
+      - name: Scan sample bundle
+        run: |
+          okf-linkcheck examples/bundle --format json --output /tmp/links.json
+          python -c "import json; r=json.load(open('/tmp/links.json')); assert r['missing_links']==1 and r['unsafe_links']==0, r"
+      - name: Export sample SARIF
+        run: |
+          okf-linkcheck examples/bundle --format sarif --output /tmp/links.sarif
+          python -c "import json; r=json.load(open('/tmp/links.sarif')); assert r['version']=='2.1.0' and len(r['runs'][0]['results'])==1"
